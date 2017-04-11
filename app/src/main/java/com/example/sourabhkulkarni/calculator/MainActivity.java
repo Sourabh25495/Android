@@ -19,7 +19,7 @@ private static Button b1,b2,b3,b4;
     }
 
 
-
+//this is a comment
         public void onButtonClick (View v){
             EditText e1 = (EditText) findViewById(R.id.editText);
             EditText e2 = (EditText) findViewById(R.id.editText2);
