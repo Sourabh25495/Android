@@ -61,10 +61,10 @@ private static Button b1,b2,b3,b4;
         EditText e2 = (EditText) findViewById(R.id.editText2);
         TextView t1 = (TextView) findViewById(R.id.editText3);
 
-        int num1 = Integer.parseInt((e1.getText().toString()));
-        int num2 = Integer.parseInt(e2.getText().toString());
-        int sum = num1 / num2;
-        t1.setText(Integer.toString(sum));
+        float num1 = Integer.parseInt((e1.getText().toString()));
+        float num2 = Integer.parseInt(e2.getText().toString());
+        float sum = num1 / num2;
+        t1.setText(Double.toString(sum));
 
 
     }
